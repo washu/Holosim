@@ -1,0 +1,26 @@
+Holosim
+
+This application will be comparable to SimulationCraft.
+Its intent is to simulate a Scenario to gauge potential DPS/HPS of a given boss fight based on team layout and gear.
+
+Goals
+=====
+Support some form of micro web interface for execution results. (Sinatra based)
+Support a DSL to configure the team layout
+Support a DSL for the boss encounter, so specific encounters can be modeled as well as generic 'boss'
+Support a binary distribution of some kind so end users dont have a difficult time to execute the simulation
+
+
+Contributing to Holosim
+
+    Check out the latest master to make sure the feature hasn’t been implemented or the bug hasn’t been fixed yet
+    Check out the issue tracker to make sure someone already hasn’t requested it and/or contributed it
+    Fork the project
+    Start a feature/bugfix branch
+    Commit and push until you are happy with your contribution
+    Make sure to add tests for it. This is important so I don’t break it in a future version unintentionally.
+    Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+Copyright
+
+Copyright © 2011 Sal Scotto. See LICENSE.txt for further details.
