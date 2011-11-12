@@ -1,0 +1,29 @@
+boss_fight "Revan"
+
+ability "Chilling Scream" do
+	range 80
+	cooldown 15
+	slow_by 50
+	reduce_accuracy_by 5
+	duration 6
+	phase 1
+end
+
+ability "Force Wave" do
+	range 10
+	cooldown 10
+	damage 1000, :kinetic
+	knockdown
+	phase 1,2,3
+end
+
+ability "Last Stand" do
+	cooldown 50
+	duration 15
+	boost_max_health 30
+	phase 3
+end
+
+phase_trigger 4, 5,:mins
+phase_trigger 2, 50, :health
+phase_trigger 3, 25, :health

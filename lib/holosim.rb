@@ -1,3 +1,7 @@
+require 'model/encounter'
+require 'model/ability'
+require 'dsl/encounter_dsl'
+
 module Holosim
   VERSION=0.1
 end
